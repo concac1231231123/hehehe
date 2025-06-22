@@ -116,7 +116,6 @@ body::-webkit-scrollbar { display: none; }
   display: flex;
   flex-direction: column;
   gap: 30px;
-<<<<<<< HEAD
   align-items: center; /* căn giữa các iframe-wrapper */
 }
 
@@ -129,21 +128,8 @@ body::-webkit-scrollbar { display: none; }
   overflow: hidden;
   box-shadow: 0 0 10px #ff91c3;
   transition: transform 0.3s, box-shadow 0.3s;
-=======
-}
-
-.iframe-wrapper {
-  width: 100%;
-  max-width: 720px;
-  aspect-ratio: 16 / 9;
-  position: relative;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 0 10px #ff91c3;
-  transition: transform 0.3s, box-shadow 0.3s;
-  margin: 0 auto;
->>>>>>> 05036bfcc4b356f5ad4264fb3bc8845019c7f599
   cursor: pointer;
+  margin: 0 auto;        /* canh giữa */
 }
 
 .iframe-wrapper:hover {
@@ -151,7 +137,6 @@ body::-webkit-scrollbar { display: none; }
   box-shadow: 0 0 20px #ff91c3;
 }
 
-<<<<<<< HEAD
 .iframe-wrapper iframe,
 .iframe-wrapper img {
   position: absolute;
@@ -161,16 +146,6 @@ body::-webkit-scrollbar { display: none; }
   border: none;
   object-fit: cover; /* ảnh và iframe vừa khung */
   pointer-events: none;
-=======
-.iframe-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  pointer-events: none; /* để click toàn bộ khung mới mở link */
->>>>>>> 05036bfcc4b356f5ad4264fb3bc8845019c7f599
 }
 
 #sakura-container {
@@ -181,10 +156,7 @@ body::-webkit-scrollbar { display: none; }
   z-index: 999;
   pointer-events: none;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 05036bfcc4b356f5ad4264fb3bc8845019c7f599
 canvas.sakura {
   width: 100%;
   height: 100%;
